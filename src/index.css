@@ -19,12 +19,12 @@ width: 100vw;
 margin: 100px auto;
 position: relative;
 max-width: 300px;
-
-}
+user-select: none;
+} 
 .pokedeximg{
 width: 100vw;
 max-width: 300px;
-
+user-select: none;
 }
 .pokemon{
 position: absolute;
