@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+background:linear-gradient(
+to top,#00bfff,#ffff);
+min-height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+main{
+display: inline-block;
+width: 100vw;
+margin: 100px auto;
+position: relative;
+max-width: 300px;
+
+}
+.pokedeximg{
+width: 100vw;
+max-width: 300px;
+
+}
+.pokemon{
+position: absolute;
+width: 30%;
+left: 35%;
+top: 30%;
+@media(max-width: 208px){
+top: 30%;
+}
+}
+.pokemon img{
+width: 80px;
+@media(max-width:270px){
+width: 70px;
+}
+@media(max-width:224px){
+width: 50px;
+}
+
+@media(max-width:179px){
+width: 50px;
+}
+
+}
+
+
+.nomeEid{
+display: flex;
+gap: 8px;
+position: absolute;
+top: 55%;
+left: 30%;
+align-items: center;
+justify-content: center;
+font-weight: 700;
+font-size: clamp(10px,5vw,15px);
+}
+.id{
+color: red;
+
+}
+ input{
+font-weight: 600;
+padding:8px 10px;
+outline: none;
+border-radius: 5px;
+box-shadow: -5px 5px 0px #7c7c7c,-8px 8px 0px #333;
+border: 0;
+position: absolute;
+font-size: 80%;
+position: absolute;
+left: -40%;
+top: 300%;
+}
+
+form{
+display: flex;
+position: absolute;
+top: 50px;
+left: -30px;
+
+}
+
+.btns{
+position: absolute;
+top: 80%;
+left: 15%;
+display: flex;
+gap: 1rem;
+}
+.btns button{
+padding: 10% 80%;
+background-color: #333;
+color: white;
+cursor: pointer;
+box-shadow: -6px 5px 0px #111;
+border: 2px solid green;
+@media(max-width: 196px){
+padding: 10% 40%;
+}
+@media(max-width: 189px){
+width: 10px;
+}
+@media(max-width: 169px){
+height:25px;
+width: 10px;
+}
+@media(max-width: 214px){
+width: 12px;
+}
+@media(max-width: 252px){
+padding: 10% 60%;
+}
+@media(max-width: 273px){
+padding: 10% 70%;
+}
+
+
+}
+.btns button:active{
+box-shadow: 6px -5px 0px #111;
+}
+
+
+
